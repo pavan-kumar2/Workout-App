@@ -1,0 +1,497 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000 !important;
+}
+
+.header-name h5 {
+    font-weight: 600;
+}
+
+.header-nav li a {
+    color: #e6e4e4d0;
+    font-size: 14px;
+}
+
+.header-nav li a:hover {
+    color: #ffff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.section-1 div:first-child img {
+    width: 500px;
+}
+
+.section-1 {
+    position: relative;
+}
+
+.section-1-img {
+    position: absolute;
+    right: 0;
+    z-index: -2;
+}
+
+.section-1 .Cardio-exercise {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 div:nth-child(2) h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10rem;
+}
+
+.section-1 div:nth-child(2) p {
+    color: #e6e4e4d0;
+    font-size: 14px;
+}
+
+.btn-started {
+    color: #fff;
+    font-weight: bold;
+    background-color: #28aa6d;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: none;
+}
+
+.btn-preview {
+    color: #fff;
+    font-weight: bold;
+    background-color: #252525;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.Cardio-exercise .details p:first-child span {
+    background-color: #28aa6d;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.Cardio-exercise .details p:first-child {
+    font-size: 14px;
+    color: #e6e4e4d0;
+    background-color: #252525;
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 20px;
+}
+
+.time-calories {
+    color: #e6e4e4d0;
+    font-size: 12px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-calories div:first-child {
+    background-color: #252525;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.time-calories div:first-child h2 {
+    color: rgb(228, 253, 3);
+    font-weight: bold;
+}
+
+.time-calories div:nth-child(2) {
+    background-color: #252525;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.time-calories div:nth-child(2) h2 {
+    color: rgb(255, 30, 0);
+    font-weight: bold;
+}
+
+.popular-excs {
+    position: relative;
+    /* background-color: linear-gradient(to top, rgba(5, 115, 119, 0.699),rgb(201, 44, 44)); */
+}
+
+.popular-excs-time {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.card {
+    background-color: #000000 !important;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.card-body {
+    position: absolute;
+    top: 185px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.card-body h1 {
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #e6e4e4d0;
+}
+
+.section-2>div:first-child h2 {
+    color: #fff;
+}
+
+.section-2>div:first-child p {
+    margin: 0;
+}
+
+.section-2>div:first-child p a {
+    color: #e6e4e4d0;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 50px 0;
+}
+
+.section-3 div {
+    width: 50%;
+    padding: 20px 10px 20px 30px;
+    position: relative;
+}
+
+.section-3 div:first-child h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.section-3 div:first-child img {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+}
+
+.section-3 div:nth-child(2) p {
+    font-size: 18px;
+    color: #e6e4e4d0;
+}
+
+.section-3-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-3-img div {
+    width: 33.333%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-3-img div img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.section-3-img div h6 {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+.section-3-img div p {
+    font-size: 14px;
+    color: #e6e4e4d0;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 span:first-child {
+    color: #e6e4e4d0;
+    font-size: 18px;
+}
+
+.section-4 span:nth-child(3) {
+    font-size: 18px;
+    color: #fff;
+}
+
+.section-4 span:nth-child(2) {
+    width: 420px;
+}
+
+.section-4 span:nth-child(2) h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.section-4 span:nth-child(2) p {
+    font-size: 14px;
+    color: #e6e4e4d0;
+}
+
+hr {
+    color: #ffffffe3 !important
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    margin: 100px 0 50px;
+}
+
+footer>div {
+    width: 22%;
+}
+
+footer div:first-child p {
+    color: #e6e4e4d0;
+    font-size: 14px;
+}
+
+footer>div p {
+    margin-bottom: 3rem;
+}
+
+footer>div p a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.row {
+    margin-left: unset !important;
+}
+
+.card {
+    position: relative;
+}
+
+
+@media only screen and (max-width:995px)and (min-width:665px) {
+    .section-1 div:nth-child(2) h1 {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width:664px)and (min-width:525px) {
+    .section-1 div:nth-child(2) h1 {
+        font-size: 6rem;
+    }
+
+    .section-3 div:first-child h1 {
+        font-size: 3rem;
+    }
+
+    .section-3 div:first-child img {
+        width: 300px;
+    }
+
+    .section-3-img {
+        flex-direction: column;
+    }
+
+    .section-3-img div {
+        width: 100%;
+    }
+
+    section {
+        margin: 40px 0;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .section-3 div {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-4 span:nth-child(2) h2 {
+        font-size: 2rem;
+    }
+
+    .section-4 span:nth-child(2) {
+        width: 290px;
+    }
+
+    .section-4 span:first-child {
+        font-size: 16px;
+    }
+
+    footer>div {
+        width: 45%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer>div p {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:524px)and (min-width:200px) {
+    .section-1 div:nth-child(2) h1 {
+        font-size: 4rem;
+    }
+
+    .section-1 .Cardio-exercise {
+        flex-direction: column;
+    }
+
+    .time-calories {
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .section-3-img {
+        flex-direction: column;
+    }
+
+    .section-3-img div {
+        width: 100%;
+    }
+    .section-3 div:first-child h1 {
+        font-size: 3rem;
+    }
+
+    .section-3 div:first-child img {
+        width: 240px;
+    }
+    section {
+        margin: 30px 0;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .section-3 div {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-4 span:nth-child(2) h2 {
+        font-size: 1rem;
+    }
+
+    .section-4 span:nth-child(2) {
+        width: 150px;
+    }
+
+    .section-4 span:first-child {
+        font-size: 16px;
+    }
+
+    footer>div {
+        width: 45%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        margin: 40px 0;
+    }
+    footer>div p a {
+        font-size: 12px;
+    }
+
+    footer div:first-child p {
+        font-size: 12px;
+    }
+
+    footer>div p {
+        margin-bottom: 1rem;
+    }
+
+    .section-3 {
+        padding: 25px 0px;
+    }
+
+    .pd-0 {
+        padding: 0px !important;
+    }
+    .section-3 div {
+        padding: 10px;
+    }
+    .btn-started {
+        background-color: #28aa6d;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .btn-preview {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .time-calories div:first-child {
+        padding: 10px 20px;
+    }
+    .time-calories div:nth-child(2) {
+        padding: 10px 20px;
+    }
+    .Cardio-exercise .details p:first-child {
+        font-size: 11px;
+        padding: 5px 5px;
+        border-radius: 10px;
+    }
+    .Cardio-exercise .details p:first-child span {
+        padding: 2px 2px;
+        border-radius: 10px;
+    }
+}
